@@ -10,7 +10,7 @@ We need to find the path to the miniDSP so we can expose it to the running conta
 2. Look for the miniDSP device
 3. Note the Bus and Device numbers
 
-In the example below, the Bus number is '001' and the Device number is '003'.
+In the example below, the Bus number is `001` and the Device number is `003`.
 
 ```
 jmery@ubuntu:~/src/ezbeq$ lsusb
