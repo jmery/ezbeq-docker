@@ -1,7 +1,8 @@
-CONTAINER_NAME = name of your container (e.g., 'jmery/ezbeq')
+CONTAINER_NAME = name of your container (e.g., `jmery/ezbeq`)
 
 Run within same directory as Dockerfile to build the container:
-'''docker build -t CONTAINER_NAME .'''
+
+```docker build -t CONTAINER_NAME .```
 
 We need to find the path to the miniDSP so we can expose it to the running container when the container is launched.  These commands may vary based on your host OS.  Using Ubuntu as an example:
 
@@ -23,4 +24,5 @@ jmery@ubuntu:~/src/ezbeq$
 ```
 
 Run to lauch the container.  Replace BUS_NUMBER, DEVICE_NUMBER, and CONTAINER_NAME with your unique values used or found above.
-'''docker run -it --device=/dev/bus/usb/BUS_NUMBER/DEVICE_NUMBER -p 8080:8080 CONTAINER_NAME'''
+
+```docker run -it --device=/dev/bus/usb/BUS_NUMBER/DEVICE_NUMBER -p 8080:8080 CONTAINER_NAME```
