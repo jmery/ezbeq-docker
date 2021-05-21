@@ -12,7 +12,8 @@ We need to find the path to the miniDSP so we can expose it to the running conta
 
 In the example below, the Bus number is '001' and the Device number is '003'.
 
-```jmery@ubuntu:~/src/ezbeq$ lsusb
+```
+jmery@ubuntu:~/src/ezbeq$ lsusb
 Bus 001 Device 003: ID 2752:0011 miniDSP miniDSP 2x4HD
 Bus 001 Device 002: ID 0e0f:000b VMware, Inc. VMware Virtual USB Video Device
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
