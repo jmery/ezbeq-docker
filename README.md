@@ -1,4 +1,4 @@
-CONTAINER_NAME = name of your container (e.g., `jmery/ezbeq`)
+CONTAINER_NAME = name of your container (e.g., `jmery/ezbeq-docker`)
 
 Run within same directory as Dockerfile to build the container:
 
