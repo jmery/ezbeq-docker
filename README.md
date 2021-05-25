@@ -1,6 +1,6 @@
 # Running ezBEQ in Docker on Linux or Synology Diskstation
 
-I built this for me because I'm lazy and needed to simplify the number of devices in my AV rack.  I currently build the containers manually using releast versions of `minidsp-rs` and `ezbeq` (i.e., I only build for what's considered "stable" and don't build pre-release versions).  At some point, I may automate builds such that combinations of new versions of minidsp-rs and ezBEQ automatically have a container built for them.
+I built this for me because I'm lazy and needed to simplify the number of devices in my AV rack.  I currently build the containers manually using released versions of `minidsp-rs` and `ezbeq` (i.e., I only build for what's considered "stable" and don't build pre-release versions).  At some point, I may automate builds such that combinations of new versions of minidsp-rs and ezBEQ automatically have a container built for them.
 
 Feel free to open an issue if you find a problem.  Feel free to code a fix and submit a PR as well :-).  Feel free to fork this and do what you want with it.
 
