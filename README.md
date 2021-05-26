@@ -58,7 +58,7 @@ If these instructions don't provide enough detail, should you really be doing/at
     * Be sure to select "Execute container using high privilege" <--- Note on this below!
     ![Launch](./images/launch.jpg "Launch")
 7. Select "Advanced Settings"
-    * Check the box to "Enable auto-restart"
+    * Check the box to "Enable auto-restart" (lets the container start automatically on NAS reboot)
     * Select "Port Settings"
     * Map port `8080` from the host to the container port `8080`
     * Select "Apply"
