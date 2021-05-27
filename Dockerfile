@@ -1,8 +1,8 @@
 # syntax=docker/dockerfile:1
 
-FROM ubuntu:21.04
+FROM ubuntu:20.04
 ENV MDSPRSV=v0.0.8
-ENV EZBEQV=0.4.12 
+ENV EZBEQV=0.5.2
 WORKDIR /tmp
 
 RUN apt-get update \
