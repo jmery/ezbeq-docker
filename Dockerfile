@@ -2,7 +2,7 @@
 
 FROM ubuntu:21.04
 ENV MDSPRSV=v0.0.8
-ENV EZBEQV=0.6.5
+ENV EZBEQV=0.6.6
 WORKDIR /tmp
 
 RUN apt-get update \
