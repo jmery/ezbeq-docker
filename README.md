@@ -1,3 +1,5 @@
+![Build Status](https://github.com/jmery/ezbeq-docker/actions/workflows/main.yml/badge.svg)
+
 # Running ezBEQ in Docker on Linux or Synology Diskstation
 
 I built this for me because I'm lazy and needed to simplify the number of devices in my AV rack.  I currently build the containers manually using released versions of `minidsp-rs` and `ezbeq` (i.e., I only build for what's considered "stable" and don't build pre-release versions).  At some point, I may automate builds such that combinations of new versions of minidsp-rs and ezBEQ automatically have a container built for them.
