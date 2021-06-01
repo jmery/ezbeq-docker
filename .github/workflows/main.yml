@@ -63,7 +63,7 @@ jobs:
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
 
-      # - name: Print event data
-      #   env:
-      #     EVENT: ${{ toJSON( github.event ) }}
-      #   run: echo "$EVENT"
+      - name: Print event data
+        env:
+          EVENT: ${{ toJSON( github.event ) }}
+        run: echo "$EVENT"
