@@ -1,4 +1,4 @@
-![Build Status](https://github.com/jmery/ezbeq-docker/actions/workflows/main.yml/badge.svg)
+# This project has been archived in favor of the [official ezbeq-docker repo and image](https://github.com/3ll3d00d/ezbeq-docker).  Please use that for docker-based deployments going forward.
 
 # Running ezBEQ in Docker on Linux or Synology Diskstation
 
